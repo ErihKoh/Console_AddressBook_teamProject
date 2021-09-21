@@ -1,8 +1,7 @@
 # ФУНКЦИИ ДЛЯ ОБРАБОТКИ ТЕЛЕФОНА
 import re
 import json
-import os
-from datetime import datetime, date, timedelta
+from datetime import datetime, timedelta
 from pathlib import Path
 
 # Пусть к файлу с контактами

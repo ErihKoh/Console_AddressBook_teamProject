@@ -1,7 +1,7 @@
 import logging
 from .sort_file import sort_folder
 from .address_book import add_contact, delete_contact, change_contact, find_contact, show_contacts, show_birthdays, \
-    dump_note, load_note, ADDRESS_BOOK_FILE, CONTACTS
+    dump_note, ADDRESS_BOOK_FILE, CONTACTS
 from .note import add_note, delete_note, change_note, find_note, show_notes, NOTE_FILE, NOTE
 from fuzzywuzzy import fuzz
 
